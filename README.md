@@ -1,6 +1,6 @@
 # Mental Health App
 
-I've decided to create this application as a side project to help myself in managing my life and improving all different areas of my own health. I just want one place where i can organise my daily tasks, track my habits and my moods, keep a personal journal,
+I've decided to create this application as a side project to help myself in managing my life and improving all different areas of my own health. I just want one place where i can organise my daily tasks, track my habits and my moods, keep a personal journal, track my workouts and set goals. 
 
 
 
