@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: swear-display, serif;
+}
+
+.heading {
+  text-align: center;
+}
+
+.home {
+  width: 70vw;
+  margin: 5rem auto;
+}
+
+.home .heading h1 {
+  font-weight: 800;
+  font-size: 12vw;
+}
+
+.underline {
+  background-image: linear-gradient(120deg, #B5D5FF 0%, #B5D5FF 100%);
+  background-repeat: no-repeat;
+  background-size: 90% 50%;
+  background-position: 70% 150%;
+}
+
+.sub {
+  text-align: center;
+  font-size: 7vw;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.homeNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 5%;
+  margin-top: 2rem;
+}
+
+.homeNav .authLinks {
+  text-decoration: none;
+  color: #000;
+  background-color: #FFCDF4;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  font-size: 6vw;
+  padding: 3%;
+  font-weight: 500;
+}
+/*# sourceMappingURL=App.css.map */

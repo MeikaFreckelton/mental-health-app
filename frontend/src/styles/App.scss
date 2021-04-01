@@ -1,0 +1,80 @@
+
+$pri: swear-display, serif;
+$sec: raleway, sans-serif;
+
+$blue: #B5D5FF;
+$purp: #E5D8FC;
+$pink: #FFCDF4;
+$green: #D8FFEA;
+$yellow: #FFFDCD;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $pri;
+}
+
+.heading{
+    text-align: center;
+}
+
+// HOME PAGE
+
+.home{
+    width: 70vw;
+    margin: 5rem auto;
+    
+
+    .heading{
+        h1{
+            font-weight: 800;
+            font-size: 12vw;
+        }
+    }
+
+
+
+    
+
+}
+
+.underline{
+    background-image: linear-gradient(120deg, $blue 0%, $blue 100%);
+    background-repeat: no-repeat;
+    background-size: 90% 50%;
+    background-position: 70% 150%;
+
+}
+.sub{
+    text-align: center;
+    font-size: 7vw;
+    font-weight: 600;
+    margin: 1rem 0;
+
+}
+
+.homeNav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    margin-top: 2rem;
+
+
+    .authLinks{
+        text-decoration: none;
+        color: #000;
+        background-color: $pink;
+        margin-bottom: 1rem;
+        border-radius: 3px;
+        font-size: 6vw;
+        padding: 3%;
+        font-weight: 500;
+
+        
+
+    }
+}
+
+
