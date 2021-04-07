@@ -5,7 +5,14 @@ const Dashboard = () => {
 
 
     return (
-        <div>
+        <div className="dashWrapper">
+            <div className="heading">
+                <h1>Welcome user :)</h1>
+            </div>
+            <div className="dashboard">
+                
+            </div>
+
 
         </div>
     )

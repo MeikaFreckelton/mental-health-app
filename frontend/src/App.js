@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
+import React, { useState } from 'react'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Dashboard from './components/Dashboard'
@@ -25,6 +25,26 @@ import './styles/Desktop.css'
 
 const App = () =>  {
 
+  const [formData, setForm] = useState({
+    name: "",
+    email: "",
+    password: ""
+  })
+
+  
+
+  const handleChange = e => {
+      const { name, value } = e.target
+      setForm({
+          ...formData, 
+          [name]: value
+      })
+  }
+
+  const handleSubmit = e => {
+      e.preventDefault()
+  }
+
 
   return (
     <div className="App">
@@ -41,10 +61,17 @@ const App = () =>  {
           <Route exact path="/moods/new" component={NewMoodEntry} />
           <Route exact path="/moods" component={Moods} />
 
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
+          <Route exact path="/login">
+            <Login handleSubmit={handleSubmit} handleChange={handleChange} formData={formData} />
+          </Route> 
+          <Route exact path="/register">
+            <Register handleSubmit={handleSubmit} handleChange={handleChange} formData={formData} />
+          </Route> 
 
-          <Route exact path="/dash" component={Dashboard} />
+
+          <Route exact path="/dash">
+            <Dashboard />
+          </Route>
 
           <Route exact path="/" component={Home} />
         </Switch>

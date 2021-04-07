@@ -57,4 +57,62 @@
   padding: 3%;
   font-weight: 500;
 }
+
+.authWrapper {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.authWrapper .authHeading {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.authWrapper .authHeading h1 {
+  font-weight: 800;
+  font-size: 12vw;
+}
+
+.authWrapper .authForm {
+  -webkit-box-shadow: 0px 0px 15px 5px #FFCDF4;
+          box-shadow: 0px 0px 15px 5px #FFCDF4;
+  padding: 5% 8% 7%;
+  margin: 3rem 0;
+}
+
+.authWrapper .authForm input[type="submit"] {
+  width: 100%;
+  border: none;
+  background-color: #FFCDF4;
+  font-weight: 600;
+  font-size: 6vw;
+  padding: 1%;
+  margin: 0.5rem 0 0;
+  border-radius: 3px;
+}
+
+.authWrapper .authForm .formFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 0.5rem;
+}
+
+.authWrapper .authForm .formFields label {
+  font-weight: 600;
+  font-size: 6vw;
+}
+
+.authWrapper .authForm .formFields input {
+  border: 2px solid #FFCDF4;
+  border-radius: 3px;
+  padding: 2% 4%;
+  font-size: 4vw;
+  caret-color: #388eff;
+  margin: 0.25rem 0 0;
+}
 /*# sourceMappingURL=App.css.map */

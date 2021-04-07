@@ -78,3 +78,65 @@ $yellow: #FFFDCD;
 }
 
 
+
+// auth
+
+.authWrapper{
+    margin: 0 auto;
+    width: 70vw;
+
+    .authHeading{
+        text-align: center;
+        margin: 1.5rem 0;
+        h1{
+            font-weight: 800;
+            font-size: 12vw;
+        }
+       
+    }
+
+    .authForm{
+        box-shadow: 0px 0px 15px 5px $pink;
+        padding: 5% 8% 7%;
+        margin: 3rem 0;
+
+        input[type="submit"]{
+            width: 100%;
+            border: none;
+            background-color: $pink;
+            font-weight: 600;
+            font-size: 6vw;
+            padding: 1%;
+            margin: 0.5rem 0 0;
+            border-radius: 3px;
+            
+        }
+
+
+
+        .formFields{
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 0.5rem;
+
+            label{
+                font-weight: 600;
+                font-size: 6vw;
+            }
+            input{
+                border: 2px solid $pink;
+                border-radius: 3px;
+                padding: 2% 4%;
+                font-size: 4vw;
+                caret-color: #388eff;
+                margin: 0.25rem 0 0;
+            }
+            
+
+        }
+    }
+
+
+}
+
+
