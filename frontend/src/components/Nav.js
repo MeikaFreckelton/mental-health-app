@@ -18,10 +18,10 @@ const Nav = () => {
         <div>
             <ul className="nav">
                 <div className="navLogo">
-                    <Link to="/dash">Be here now</Link>
-                    <div className="icon" onClick={handleClick}>
-                        <i class="far fa-heart"></i>
-                    </div>
+                    <Link to="/dash" className="logo">Be here now</Link>
+                    
+                    <i class="far fa-heart" onClick={handleClick}></i>
+                    
                 </div>
                 <div className={navClass}>
                     <Link to="/resources" className="navLink" >Resources</Link>

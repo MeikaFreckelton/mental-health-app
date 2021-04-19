@@ -171,6 +171,13 @@ $yellow: #FFFDCD;
     .showLinks{
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid $blue;
+        a{
+            text-align: right;
+            padding: 2% 5% 3%;
+            font-weight: 500;
+            font-size: 5.5vw;
+        }
 
     }
 
@@ -180,7 +187,26 @@ $yellow: #FFFDCD;
     .navLogo{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        background-color: $blue;
+        padding: 3%;
+
+        .logo{
+            font-weight: 600;
+            font-size: 7vw;
+        }
+        .fa-heart{
+            font-size: 8vw;
+            line-height: 1;
+            margin-top: 0.5%
+        }
+
+    }
+
+    a{
+        text-decoration: none;
+        color: #000;
+        
     }
 }
 

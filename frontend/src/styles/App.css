@@ -150,6 +150,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 1px solid #B5D5FF;
+}
+
+.nav .showLinks a {
+  text-align: right;
+  padding: 2% 5% 3%;
+  font-weight: 500;
+  font-size: 5.5vw;
 }
 
 .nav .hideLinks {
@@ -164,7 +172,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #B5D5FF;
+  padding: 3%;
+}
+
+.nav .navLogo .logo {
+  font-weight: 600;
+  font-size: 7vw;
+}
+
+.nav .navLogo .fa-heart {
+  font-size: 8vw;
+  line-height: 1;
+  margin-top: 0.5%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
 }
 /*# sourceMappingURL=App.css.map */
