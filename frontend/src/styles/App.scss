@@ -106,9 +106,31 @@ $yellow: #FFFDCD;
             background-color: $pink;
             font-weight: 600;
             font-size: 6vw;
-            padding: 1%;
+            padding: 1% 0 2%;
             margin: 0.5rem 0 0;
             border-radius: 3px;
+            
+        }
+
+        .registerBtn{
+        
+            
+            background-color: $blue;
+            font-weight: 600;
+            font-size: 6vw;
+            width: 100%;
+            margin: 0.5rem 0 0;
+            border-radius: 3px;
+            text-align: center;
+            padding: 1% 0 2%;
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+
+
+
             
         }
 
@@ -139,4 +161,26 @@ $yellow: #FFFDCD;
 
 }
 
+
+//  nav
+
+.nav{
+    display: flex;
+    flex-direction: column;
+
+    .showLinks{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hideLinks{
+        display: none;
+    }
+    .navLogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 

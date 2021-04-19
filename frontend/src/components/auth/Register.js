@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 const Register = ({ formData, handleChange, handleSubmit }) => {
 
@@ -30,6 +30,10 @@ const Register = ({ formData, handleChange, handleSubmit }) => {
                         
                     </div>
                     <input type="submit" className="formSubmit" onClick={handleSubmit} />
+                    <div className="registerBtn">
+                        <Link to="/login">Log in</Link>
+
+                    </div>
                 </div>
                 
             </div>

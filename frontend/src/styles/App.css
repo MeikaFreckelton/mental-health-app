@@ -86,9 +86,25 @@
   background-color: #FFCDF4;
   font-weight: 600;
   font-size: 6vw;
-  padding: 1%;
+  padding: 1% 0 2%;
   margin: 0.5rem 0 0;
   border-radius: 3px;
+}
+
+.authWrapper .authForm .registerBtn {
+  background-color: #B5D5FF;
+  font-weight: 600;
+  font-size: 6vw;
+  width: 100%;
+  margin: 0.5rem 0 0;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1% 0 2%;
+}
+
+.authWrapper .authForm .registerBtn a {
+  text-decoration: none;
+  color: #000;
 }
 
 .authWrapper .authForm .formFields {
@@ -114,5 +130,41 @@
   font-size: 4vw;
   caret-color: #388eff;
   margin: 0.25rem 0 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav .showLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav .hideLinks {
+  display: none;
+}
+
+.nav .navLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=App.css.map */

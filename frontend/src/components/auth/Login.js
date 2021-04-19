@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 const Login = ({ formData, handleChange, handleSubmit }) => {
-    const { name, email, password } = formData
+    const { email, password } = formData
 
 
     return (
@@ -12,11 +12,7 @@ const Login = ({ formData, handleChange, handleSubmit }) => {
                     <h1 className="underline">Log In</h1>
                 </div>
                 <div className="authForm">
-                    <div className="formFields">
-                        <label>Full Name</label>
-                        <input name="name" value={name} onChange={handleChange} />
-
-                    </div>
+                    
                     <div className="formFields">
                         <label>Email</label>
                         <input name="email" value={email} onChange={handleChange} />
@@ -28,6 +24,10 @@ const Login = ({ formData, handleChange, handleSubmit }) => {
                         
                     </div>
                     <input type="submit" className="formSubmit" onClick={handleSubmit} />
+                    <div className="registerBtn">
+                        <Link to="/register">Create an account</Link>
+
+                    </div>
                 </div>
                 
             </div>
