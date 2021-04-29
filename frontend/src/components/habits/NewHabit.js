@@ -5,6 +5,9 @@ const NewHabits = () => {
     return(
         <div>
             new habits
+            <div>
+                
+            </div>
         </div>
     )
 }
