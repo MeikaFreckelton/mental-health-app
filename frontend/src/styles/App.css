@@ -160,6 +160,10 @@
   font-size: 5.5vw;
 }
 
+.nav .desktopNav {
+  display: none;
+}
+
 .nav .hideLinks {
   display: none;
 }

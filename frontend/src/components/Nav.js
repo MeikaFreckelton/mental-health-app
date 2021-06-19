@@ -21,6 +21,12 @@ const Nav = () => {
                     <Link to="/dash" className="logo">Be here now</Link>
                     
                     <i class="far fa-heart" onClick={handleClick}></i>
+                    <div className="desktopNav">
+                        <Link to="/resources" className="navLink" >Resources</Link>
+                        <Link to="/moods" className="navLink" >Moods</Link>
+                        <Link to="/habits" className="navLink" >Habits/Hobbies</Link>
+                        <Link to="/workouts" className="navLink" >Workouts</Link>
+                    </div>
                     
                 </div>
                 <div className={navClass}>
@@ -29,6 +35,7 @@ const Nav = () => {
                     <Link to="/habits" className="navLink" >Habits/Hobbies</Link>
                     <Link to="/workouts" className="navLink" >Workouts</Link>
                 </div>
+                
                 
                 
             </ul>

@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=Desktop.css.map */
+@media only screen and (min-width: 768px) {
+  .nav .navLogo {
+    padding: 1% 2%;
+  }
+  .nav .navLogo .logo {
+    font-size: 2vw;
+  }
+  .nav .navLogo .fa-heart {
+    display: none;
+  }
+  .nav .showLinks, .nav .hideLinks {
+    display: none;
+  }
+  .nav .desktopNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 75%;
+  }
+  .nav .desktopNav a {
+    font-size: 2vw;
+  }
+  .nav .desktopNav a:hover {
+    color: white;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  .home .heading h1 {
+    font-size: 7vw;
+  }
+}
+/*# sourceMappingURL=Desktop.css.map */

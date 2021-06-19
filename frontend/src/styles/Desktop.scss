@@ -1,0 +1,43 @@
+@media only screen and (min-width: 768px ) {
+
+    .nav{
+
+        .navLogo{
+            padding: 1% 2%;
+            
+            .logo{
+                font-size: 2vw;
+            }
+
+            .fa-heart{
+                display: none;
+            }
+        }
+        .showLinks, .hideLinks{
+            display: none;
+        }
+        .desktopNav{
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+            a{
+                font-size: 2vw;
+                &:hover{
+                    color: white;
+                    transform: scale(1.25);
+                    transition: 0.25s;
+                }
+            }
+        }
+    }
+    
+    .home{
+
+        .heading{
+
+            h1{
+                font-size: 7vw;
+            }
+        }
+    }
+}
