@@ -5,32 +5,80 @@ I've decided to create this application as a side project to help myself in mana
 ## Features
 
 - Mood tracker
-  - journal
-  - daily mood entries
-  - insights 
-  - icons
-  - gratitude
+  - Daily task:
+    - Every day enter a quick questionaire on how im feeling at that time, followed by a journal entry and gratitude.
+  - What is in the questionnaire?
+    - How are you feeling on a scale?
+      -  (1 - 5 shown as happy to sad face )
+    - How would you describe your mood today?
+      - (List of emotions to choose from as checkboxes)
+      - What are the options?
+    - What is making you feel this today?
+      - (List of things as possible causes as checkboxes)
+      - What are the options?
+    - Move on to journal section
+    - Then onto gratitude section
+      - What are you grateful for today?
+        - Dynamic input?
+        - Display on dashboard
+  - Displaying mood entry data
+    - Show on the dashboard
+    - Graph?
+    - Table?
+    - Infographic?
+    - Calculate statistics and show them?
+
+
+
+- Affirmations
+  - Have a collection of default affirmations
+  - Ability to add own affirmations to list
+  - Show an affirmation for the day, randomized on each day
+
+
+
 - Habit tracker
-  - colour coded
-  - add habits/hobbies
-  - specify how often and how long
-- Workout Tracker
-- Resources
-- Journal
-  - implement 5 minute journal every day
-- Morning tasks - mood tracker & journal
-  - how am i feeling today?
-    - 1 - 5 emotions
-      - choose from range of emotions 
-      - what is making me feel this way?
-  - 5 minute journal
-    - 3 things im grateful for
-    - 3 things that would make today great
-    - an affirmation for the day
+  - Daily to do list?
+    - Set a list of habits to do every day
+    - Set a list of habits to do every few days, weekly or monthly
+  - Streaks for habits to be done every day?
+
+- Goals?
+  - Set goals, put a plan in place to work towards those goals
+
+
+
+- Workout Tracker (Backlog)
+  - FInish these features before implementing ^
 
 
 
 
 
-## Planning and wireframes
+- Resources (Backlog)
+  - List of books
+  - Meditation information and links
+  - Podcasts?
+  - Spirituality related things?
+  - Fun interesting things
+    - Birth Chart Calculater
+    - 61? personality quiz
+
+
+
+## Wireframes
+
+
+
+
+
+## Trello
+
+
+
+
+
+## User Stories
+
+
 
