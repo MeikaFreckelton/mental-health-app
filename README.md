@@ -1,10 +1,12 @@
+
+
 # Mental Health App
 
 I've decided to create this application as a side project to help myself in managing my life and improving all different areas of my own health. I want one place where i can organise my daily tasks, track my habits and my moods, keep a personal journal, track my workouts and set goals. I'm also using this project to improve my knowledge in ~~react-redux~~, the backend, databases as well as keeping my tech skills up to date and contiuing my learning. 
 
 ## Features
 
-- Mood tracker
+- **Mood tracker**
   - Daily task:
     - Every day enter a quick questionaire on how im feeling at that time, followed by a journal entry and gratitude.
   - What is in the questionnaire?
@@ -30,32 +32,34 @@ I've decided to create this application as a side project to help myself in mana
 
 
 
-- Affirmations
+- **Affirmations**
   - Have a collection of default affirmations
   - Ability to add own affirmations to list
   - Show an affirmation for the day, randomized on each day
 
 
 
-- Habit tracker
+- **Habit tracker**
   - Daily to do list?
     - Set a list of habits to do every day
     - Set a list of habits to do every few days, weekly or monthly
   - Streaks for habits to be done every day?
 
-- Goals?
+
+
+- **Goals? (maybe connect with streaks in some way?)**
   - Set goals, put a plan in place to work towards those goals
 
 
 
-- Workout Tracker (Backlog)
+- **Workout Tracker (Backlog)**
   - FInish these features before implementing ^
 
 
 
 
 
-- Resources (Backlog)
+- **Resources (Backlog)**
   - List of books
   - Meditation information and links
   - Podcasts?
@@ -68,7 +72,37 @@ I've decided to create this application as a side project to help myself in mana
 
 ## Wireframes
 
+**Welcome page progression**![welcome-1](frontend/public/docs-images/welcome.png)
 
+**Authentication pages progression**
+
+![register](frontend/public/docs-images/register.png)
+
+![login](frontend/public/docs-images/log-in.png)
+
+
+
+**Dashboard progression**
+
+![dashboard](frontend/public/docs-images/dash.png)
+
+
+
+**Habits page progression**
+
+![habits](frontend/public/docs-images/habits.png)
+
+
+
+**Habit forms progression**
+
+![add-habit](frontend/public/docs-images/add-habit.png)
+
+
+
+**Workouts progression**
+
+![workouts](frontend/public/docs-images/workouts.png)
 
 
 
