@@ -2,7 +2,9 @@
 
 # Mental Health App
 
-I've decided to create this application as a side project to help myself in managing my life and improving all different areas of my own health. I want one place where i can organise my daily tasks, track my habits and my moods, keep a personal journal, track my workouts and set goals. I'm also using this project to improve my knowledge in ~~react-redux~~, the backend, databases as well as keeping my tech skills up to date and contiuing my learning. 
+I've decided to create this application as a side project to help myself in managing my life and improving all different areas of my own health. I want one place where i can organise my daily tasks, track my habits and my moods, keep a personal journal, track my workouts and set goals. I'm also using this project to improve my knowledge in ~~react-redux~~, the backend, databases as well as keeping my tech skills up to date and contiuing my learning. I've temporarily used the title, "Remember, be here now" in the logo section of the navbar, referencing the book by Ram Dass with the same title. I personally love this phrase as a reminder to stay present in my life.
+
+
 
 ## Features
 
