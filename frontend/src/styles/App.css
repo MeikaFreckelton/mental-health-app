@@ -13,6 +13,16 @@
 .home {
   width: 70vw;
   margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .home .heading h1 {
@@ -29,9 +39,11 @@
 
 .sub {
   text-align: center;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 600;
   margin: 1rem 0;
+  width: 75%;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .homeNav {
@@ -44,7 +56,7 @@
           flex-direction: column;
   text-align: center;
   padding: 5%;
-  margin-top: 2rem;
+  width: 100%;
 }
 
 .homeNav .authLinks {
@@ -197,5 +209,18 @@
 .nav a {
   text-decoration: none;
   color: #000;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=App.css.map */

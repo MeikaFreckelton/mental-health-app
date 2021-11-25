@@ -24,6 +24,9 @@ $yellow: #FFFDCD;
 .home{
     width: 70vw;
     margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
 
     .heading{
@@ -48,9 +51,11 @@ $yellow: #FFFDCD;
 }
 .sub{
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 600;
     margin: 1rem 0;
+    width: 75%;
+    color: rgba(0, 0, 0, 0.6)
 
 }
 
@@ -59,7 +64,7 @@ $yellow: #FFFDCD;
     flex-direction: column;
     text-align: center;
     padding: 5%;
-    margin-top: 2rem;
+    width: 100%;
 
 
     .authLinks{
@@ -212,4 +217,14 @@ $yellow: #FFFDCD;
         
     }
 }
+
+
+// dashboard
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 

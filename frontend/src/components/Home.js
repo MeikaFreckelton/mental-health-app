@@ -10,7 +10,7 @@ const Home = () => {
                 <h1 className="underline">Welcome :)</h1>
             </div>
             <div className="sub">
-                Log in or create an account to get started
+                <p>Log in or create an account to get started</p>
             </div>
             <div className="homeNav">
                 <Link to="/login" className="authLinks" >Log in</Link>

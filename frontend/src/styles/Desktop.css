@@ -33,5 +33,11 @@
   .home .heading h1 {
     font-size: 7vw;
   }
+  .dashboard {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=Desktop.css.map */

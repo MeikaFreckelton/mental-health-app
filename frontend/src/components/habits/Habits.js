@@ -4,7 +4,16 @@ const Habits = () => {
 
     return(
         <div>
-            habits
+            <div className="heading">
+                <h1>Track your daily habits and set goals</h1>
+
+            </div>
+            <div className="habitWrapper">
+                <div className="currentHabits">
+
+                </div>
+                
+            </div>
         </div>
     )
 }
